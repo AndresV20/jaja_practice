@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "prosemirror": "^0.11.1",
     "prosemirror-example-setup": "^1.2.1",
+    "prosemirror-find-replace": "^0.9.0",
     "prosemirror-model": "^1.18.1",
     "prosemirror-schema-basic": "^1.2.0",
     "prosemirror-state": "^1.4.1",
@@ -18,6 +20,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^18.7.23",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
